@@ -1,0 +1,65 @@
+{
+	"name": "n8n-nodes-string-web-access",
+	"version": "0.1.0",
+	"description": "Search the web, fetch any URL and map a site — clean Markdown, past anti-bot blocks.",
+	"license": "MIT",
+	"homepage": "https://usestring.ai",
+	"keywords": [
+		"n8n-community-node-package",
+		"n8n",
+		"string-ai",
+		"web-access",
+		"web-scraping",
+		"web-search",
+		"markdown",
+		"anti-bot",
+		"captcha",
+		"proxy",
+		"crawler",
+		"data-extraction",
+		"llm",
+		"ai-agents",
+		"unblocker"
+	],
+	"author": {
+		"name": "String",
+		"email": "support@usestring.ai"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/usestring/n8n-nodes-string-web-access.git"
+	},
+	"scripts": {
+		"build": "n8n-node build",
+		"build:watch": "tsc --watch",
+		"dev": "n8n-node dev",
+		"lint": "n8n-node lint",
+		"lint:fix": "n8n-node lint --fix",
+		"test": "node --test test/*.test.js",
+		"release": "n8n-node release",
+		"prepublishOnly": "n8n-node prerelease"
+	},
+	"files": [
+		"dist"
+	],
+	"n8n": {
+		"n8nNodesApiVersion": 1,
+		"strict": true,
+		"credentials": [
+			"dist/credentials/StringWebAccessApi.credentials.js"
+		],
+		"nodes": [
+			"dist/nodes/StringWebAccess/StringWebAccess.node.js"
+		]
+	},
+	"devDependencies": {
+		"@n8n/node-cli": "*",
+		"eslint": "9.32.0",
+		"prettier": "3.6.2",
+		"release-it": "^19.0.4",
+		"typescript": "5.9.2"
+	},
+	"peerDependencies": {
+		"n8n-workflow": "*"
+	}
+}
