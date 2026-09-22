@@ -317,7 +317,6 @@ export const webSearchFields: INodeProperties[] = [
 				default: 'google',
 				description: 'The search engine to query',
 				options: [
-					{ name: 'Bing', value: 'bing' },
 					{ name: 'Brave', value: 'brave' },
 					{ name: 'DuckDuckGo', value: 'duckduckgo' },
 					{ name: 'Google', value: 'google' },

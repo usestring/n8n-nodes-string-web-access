@@ -54,7 +54,7 @@ but fetches no page, so testing a credential is never billed.
 
 ### Web
 
-- **Search** — run a query against Google, Bing, Brave, DuckDuckGo or Mojeek and return the ranked
+- **Search** — run a query against Google, Brave, DuckDuckGo or Mojeek and return the ranked
   organic results. **Simplify** is on by default and emits one item per result; turn it off to get
   the whole response, including the answer panels, related searches and ads that the engine drew
   around the results.
