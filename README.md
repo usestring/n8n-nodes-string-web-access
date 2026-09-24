@@ -1,13 +1,7 @@
 # n8n-nodes-string-web-access
 
-String Web Access turns any page on the web into LLM-ready Markdown. Best for: scraping sites that
-block bots, live web search, writing to APIs behind a bot wall, mapping a site's URLs. Handles
-proxies, CAPTCHAs and JavaScript rendering. Add web data to any n8n workflow.
-
-Search the web, fetch any URL or send it a write request, and map a site's URLs — all returned
-as clean, LLM-ready Markdown. Proxy rotation, anti-bot handling, CAPTCHA solving and JavaScript
-rendering happen server-side, so the agent gets the page instead of a block screen. Best for
-sites that rate-limit, geo-gate or block automated traffic.
+String Web Access turns any page on the web into clean, LLM-ready Markdown. Search the web, fetch
+any URL or send it a request, and map a site's URLs from any n8n workflow.
 
 [n8n](https://n8n.io/) is a [fair-code licensed](https://docs.n8n.io/reference/license/) workflow
 automation platform.

@@ -1,7 +1,7 @@
 {
 	"name": "n8n-nodes-string-web-access",
 	"version": "0.1.0",
-	"description": "Search the web, fetch any URL and map a site — clean Markdown, past anti-bot blocks.",
+	"description": "Search the web, fetch any URL and map a site as clean, LLM-ready Markdown.",
 	"license": "MIT",
 	"homepage": "https://usestring.ai",
 	"keywords": [
@@ -12,8 +12,6 @@
 		"web-scraping",
 		"web-search",
 		"markdown",
-		"anti-bot",
-		"captcha",
 		"proxy",
 		"crawler",
 		"data-extraction",

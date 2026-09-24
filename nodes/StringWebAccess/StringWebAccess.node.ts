@@ -83,7 +83,7 @@ export class StringWebAccess implements INodeType {
 		version: 1,
 		subtitle: '={{$parameter["operation"] + ": " + $parameter["resource"]}}',
 		description:
-			'Search the web, fetch any URL and map a site — clean Markdown, past anti-bot blocks',
+			'Search the web, fetch any URL and map a site as clean, LLM-ready Markdown',
 		defaults: {
 			name: 'String Web Access',
 		},
